@@ -1,0 +1,33 @@
+{
+  "name": "picogw-plugin-mqtt",
+  "version": "0.0.1",
+  "description": "MQTT plugin for PicoGW",
+  "main": "index.js",
+  "dependencies": {
+    "mqtt": "^2.18.8"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SonyCSL/node-picogw-plugin-mqtt.git"
+  },
+  "author": "Shigeru Owada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SonyCSL/node-picogw-plugin-mqtt/issues"
+  },
+  "homepage": "",
+  "picogw": {
+    "role": [
+	"client",
+	"server"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "enabled": false,
+    "broker_address": "mqtt://test.mosquitto.org",
+    "qos": 1
+}

@@ -1,0 +1,23 @@
+{
+    "title": "MQTT Settings"
+    ,"type": "object"
+    ,"id":"server"
+    ,"properties": {
+        "enabled":{
+            "title":"This plugin allows remote access of PicoGW through mqtt broker. This can increase security risk. Enable this feature only when you accept this risk at your own."
+            ,"type":"boolean"
+	    ,"required": true
+        },
+        "broker_address":{
+	    "title": "MQTT broker address"
+	    ,"type": "string"
+	    ,"required": true
+        },
+        "qos":{
+	    "title": "QoS: Quality of service"
+	    ,"type": "number"
+	    ,"default": 1
+	    ,"required": true
+        }
+    }
+}
