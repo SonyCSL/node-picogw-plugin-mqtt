@@ -1,4 +1,8 @@
-# MQTT plugin for PicoGW
+# This package is no longer necessary, because MQTT support is unified into [PicoGW](https://github.com/KAIT-HEMS/node-picogw) core system.
+
+
+
+## MQTT plugin for PicoGW
 
 This is a MQTT plugin package of [PicoGW](https://github.com/KAIT-HEMS/node-picogw), developed by Shigeru Owada@Sony CSL.
 
